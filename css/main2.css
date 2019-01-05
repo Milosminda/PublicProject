@@ -1,0 +1,94 @@
+/**************************************************
+                  Global styles
+**************************************************/
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-size: 16px;
+	font-family: Tahoma, sans-serif;
+	line-height: 1.4;
+	background-color: #eee;
+	color: #333;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	text-decoration: none;
+}
+.active-nav {
+	background-color: #262626;
+}
+/**************************************************
+                      Layout
+**************************************************/
+.navbar-inverse {
+	background-color: #333;
+}
+.ba article {
+	padding: 0 10px;
+	background-color: #f2f2f2;
+	flex: 0 0 24%;
+}
+.section-header {
+	text-align: center;
+}
+@media all and (max-width: 768px) {
+	.col-sm-6 {
+		padding: 0 15px;	
+	}
+}
+@media all and (min-width: 768px) {
+	.container {
+		width: 750px;
+		margin: 0 auto;
+	}
+	.col-sm-6 {
+		width: 50%;
+		float: left;	
+	}
+	.col-sm-6:nth-of-type(2n+3) {
+		clear: both;
+	}
+}
+@media all and (min-width: 992px) {
+	.container {
+		width: 992px;
+	}
+	.col-sm-6:nth-of-type(2n+3) {
+		clear: both;
+	}
+}
+@media all and (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+	.col-sm-6 {
+		width: 25%;
+	}
+	.col-sm-6:nth-of-type(2n+3) {
+		clear: none;
+	}
+}
+/**************************************************
+                  Specific styles
+**************************************************/
+
+/**************************************************
+                  Helper classes
+**************************************************/
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+	content: " ";
+	display: table;
+}
+.clearfix::after {
+	clear: both;
+}

@@ -1,0 +1,240 @@
+/**************************************************
+                  Global styles
+**************************************************/
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #fff;
+  color: #000;
+  line-height: 1.4;
+  font-family: Tahoma, sans-serif;
+}
+a {
+  color: #f90;
+}
+/**************************************************
+                      Layout
+**************************************************/
+
+/**************************************************
+                  Specific styles
+**************************************************/
+.navbar {
+  border-radius: 0;
+}
+.navbar-brand {
+  text-indent: -9999px;
+  background-image: url(../img/swd-logo.png);
+  width: 276px;
+  height: 50px;
+}
+.intro-section header {
+  position: relative;
+  line-height: 0;
+}
+.tagline {
+  background-color: rgba(255, 153, 0, 0.9);
+  position: absolute;
+  color: #fff;
+  text-align: right;
+  font-size: 3vw;
+  margin: 0;
+  line-height: 1.2;
+  padding: 20px;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.intro-section {
+  margin-bottom: 40px;
+}
+.intro-section article {
+  background-color: #333;
+  color: #ccc;
+  padding: 35px 10px 25px;
+  border: 10px solid #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+  position: relative;
+}
+.icon-holder {
+  background-color: #f90;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  padding: 2px;
+  position: absolute;
+  top: -55px;
+  right: 10px;
+  -webkit-transform: rotate(15deg);
+     -moz-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+       -o-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+.intro-section h3 {
+  color: #fff;
+}
+.intro-section h3 span {
+  font-size: 32px;
+}
+.intro-section article p {
+  margin: 0;
+}
+.white-holder {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+  padding: 25px 10px;
+}
+.white-holder header {
+  padding: 0 15px;
+}
+.latest-news {
+  font-size: 16px;
+}
+.latest-news h2 {
+  font-size: 32px;
+  margin: 0;
+}
+.date {
+  color: #999;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  display: block;
+}
+.img-link {
+  background-color: #f5f5f5;
+  padding: 10px;
+  display: block;
+  line-height: 0;
+}
+.white-holder p {
+  margin-top: 2px;
+}
+.read-more {
+  border: 1px solid #f90;
+  border-radius: 5px;
+  width: 140px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 38px;
+  margin: 0 auto;
+  color: #f90;
+  transition: all .3s;
+
+}
+.read-more:hover {
+  background-color: #f90;
+  color: #fff;
+}
+.main-footer {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,333333+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top,  #000000 0%, #333333 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #000000 0%,#333333 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #000000 0%,#333333 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+  color: #fff;
+  margin-top: 70px;
+  padding: 50px 0;
+  position: relative;
+}
+.soc-net {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.soc-net li {
+  float: left;
+  margin-right: 10px;
+}
+.soc-net li:last-child {
+  margin-right: 0;
+}
+.soc-net li a {
+  width: 60px;
+  height: 60px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  background-image: url(../img/soc-net-sprite.png);
+  display: block;
+  text-indent: -9999px;
+  box-sizing: 0 0 5px rgba(0, 0, 0, .3);
+  transition: background-position .3s;  
+}
+.facebook {
+  background-color: #3c5a98;
+}
+.facebook:hover {
+  background-position: 0 -40px;
+}
+.twitter {
+  background-color: #00adee;
+  background-position: -40px 0;
+}
+.twitter:hover {
+  background-position: -40px -40px;
+}
+.linked-in {
+  background-color: #069;
+  background-position: -80px 0;
+}
+.linked-in:hover {
+  background-position: -80px -40px;
+}
+.google-plus {
+  background-color: #d84937;
+  background-position: -120px 0;
+}
+.google-plus:hover {
+  background-position: -120px -40px;
+}
+.main-footer p {
+  margin: 0;
+  line-height: 1.2;
+}
+/**************************************************
+                  Media Queries
+**************************************************/
+@media all and (max-width: 768px) {
+  .icon-holder {
+    width: 60px;
+    height: 60px;
+    top: -30px;
+  }
+  .soc-net {
+  position: absolute;
+  top: -30px;
+    left: 27%;
+  }
+  .soc-net li a {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #fff;
+ }
+  .footer-resp {
+    margin-top: 40px;
+  }
+}
+/**************************************************
+                  Helper classes
+**************************************************/
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
