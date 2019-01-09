@@ -31,6 +31,9 @@ a {
 .navbar-nav li a {
   text-transform: uppercase;
 }
+.container {
+  margin-top: 65px;
+}
 .intro-section header {
   position: relative;
   line-height: 0;
